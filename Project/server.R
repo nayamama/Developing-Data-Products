@@ -2,8 +2,6 @@ source("helper.R")
 library(shiny)
 library(rCharts)
 library(reshape2)
-library(UsingR)
-data(galton)
 library(rmongodb)
 
 shinyServer(
